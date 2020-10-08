@@ -1,5 +1,5 @@
 function setup() {
-  //song = loadSound("badang.mp3", loaded);
+  song = loadSound("badang.mp3", loaded);
   createCanvas(1050, 700);
   
   //scene1
@@ -10,7 +10,7 @@ function setup() {
 
 
 function loaded() {
-  //song.play();
+  song.play();
   image(img, 0, 0, width, height);
 }
 
